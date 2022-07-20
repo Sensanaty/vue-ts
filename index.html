@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>L U K A</title>
+  <meta name="description" content="Luka Salević is a Fullstack Engineer with expertise in JavaScript, Ruby, Go, Elixir and Crystal">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Portfolio, Fullstack Engineer, Frontend Engineer, Backend Engineer, Ruby Engineer, Javascript Engineer, Luka Salevic">
+  <script>
+    (function () {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

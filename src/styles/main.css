@@ -1,0 +1,17 @@
+@import "./normalize.css";
+@import "./colors.css";
+@import "./variables.css";
+@import "./nprogress.css";
+
+html {
+  background: var(--background);
+  color: var(--color);
+  font-family: "Helvetica Neue", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  transition: background var(--transition), color var(--transition);
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

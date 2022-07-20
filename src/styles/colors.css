@@ -1,0 +1,10 @@
+:root {
+  --background: #FDFDFD;
+  --color: #262322;
+  --accent: #FF9F1C;
+}
+
+:root.dark {
+  --background: #262322;
+  --color: #FDFDFD;
+}
